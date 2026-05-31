@@ -1,5 +1,10 @@
 # Seedance 2 API Examples for PoYo
 
+[![Model page](https://img.shields.io/badge/Model%20page-seedance--2-84cc16)](https://poyo.ai/models/seedance-2)
+[![API docs](https://img.shields.io/badge/API%20docs-docs.poyo.ai-22d3ee)](https://docs.poyo.ai/api-manual/video-series/seedance-2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-111827)](LICENSE)
+[![Main examples](https://img.shields.io/badge/Main%20examples-PoyoAPI%2Fpoyo--examples-0f172a?logo=github)](https://github.com/PoyoAPI/poyo-examples)
+
 Focused server-side examples for building with `seedance-2` and `seedance-2-fast` on PoYo.
 
 [Model Page](https://poyo.ai/models/seedance-2) | [Docs](https://docs.poyo.ai/api-manual/video-series/seedance-2) | [Get API Key](https://poyo.ai/dashboard/api-key) | [Pricing](https://poyo.ai/pricing) | [Main Examples](https://github.com/PoyoAPI/poyo-examples)
