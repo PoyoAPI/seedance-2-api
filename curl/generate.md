@@ -54,6 +54,28 @@ curl --fail-with-body --request POST \
   }'
 ```
 
+## Mini Draft Request
+
+Use `seedance-2-mini` when you want a lower-cost draft loop before deciding which direction to polish.
+
+```bash
+curl --fail-with-body --request POST \
+  --url "$POYO_BASE_URL/api/generate/submit" \
+  --header "Authorization: Bearer $POYO_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data '{
+    "model": "seedance-2-mini",
+    "callback_url": "https://example.com/api/poyo/webhook",
+    "input": {
+      "prompt": "A lower-cost product video draft for a matte black electric kettle. Slow handheld push-in, natural morning light, no text",
+      "resolution": "720p",
+      "duration": 5,
+      "aspect_ratio": "16:9",
+      "generate_audio": false
+    }
+  }'
+```
+
 ## Expected Submit Response
 
 ```json
