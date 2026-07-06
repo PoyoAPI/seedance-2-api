@@ -9,7 +9,7 @@ Focused server-side examples for building with `seedance-2`, `seedance-2-fast`, 
 
 The API workflow is: submit a task from your server, store `data.task_id`, poll in testing, and use `callback_url` webhooks in production.
 
-[Model Page](https://poyo.ai/models/seedance-2) | [Docs](https://docs.poyo.ai/api-manual/video-series/seedance-2) | [Get API Key](https://poyo.ai/dashboard/api-key) | [Pricing](https://poyo.ai/pricing) | [Main Examples](https://github.com/PoyoAPI/poyo-examples)
+[Try on PoYo](https://poyo.ai/models/seedance-2) | [Get API Key](https://poyo.ai/dashboard/api-key) | [Docs](https://docs.poyo.ai/api-manual/video-series/seedance-2) | [Pricing](https://poyo.ai/pricing) | [Main Examples](https://github.com/PoyoAPI/poyo-examples)
 
 Seedance 2 is useful for product clips, short social videos, reference-driven video, and motion ideas where optional generated audio can be part of the first draft.
 
